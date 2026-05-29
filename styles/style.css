@@ -87,6 +87,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;          /* поправлено */
 }
 
 .search-form {
@@ -275,8 +276,8 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link:hover .content__video-card-title,
-.content__card-link:hover .content__video-card-description {
+/* поправлено */
+.content__card-link:hover {
   text-decoration: underline;
 }
 
@@ -328,6 +329,6 @@ ol {
 }
 
 .more-button {
-  width: 100%;
+  width: 390px;               /* поправлено */
   min-height: 34px;
 }
